@@ -1,0 +1,99 @@
+.list {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.listPage {
+    display: flex;
+    margin-bottom: 24px;
+    margin-top: 48px;
+}
+
+.betweenPage {
+    color: #4C5563;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.page {
+    color: #4C5563;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.title {
+    color: #000;
+    font-family: Nunito;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 24px;
+}
+
+.containerCard {
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    column-gap: 20px;
+    row-gap: 25px;
+}
+
+.containerImgCard {
+    width: calc((100% - 60px) / 4);
+}
+
+.cardImg {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.titleCard {
+    color: #1A1A1A;
+    text-align: center;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+
+@media screen and (max-width: 767px) {
+    .list {
+        max-width: 345px;
+    }
+
+    .containerImgCard {
+        width: calc((100% - 9px) / 2);
+    }
+
+    .containerCard {
+        max-width: 345px;
+        column-gap: 9px;
+        row-gap: 16px;
+    }
+
+    .title {
+        font-size: 26px;
+    }
+
+    .page {
+        font-size: 12px;
+    }
+
+    .betweenPage {
+        font-size: 12px;
+    }
+
+    .listPage {
+        margin-bottom: 16px;
+        margin-top: 24px;
+    }
+}

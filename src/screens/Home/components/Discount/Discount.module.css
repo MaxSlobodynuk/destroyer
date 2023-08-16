@@ -1,0 +1,60 @@
+.containerDiscount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 120px;
+    background-image: url("../../../../assets/bg.png")
+}
+
+
+.iconDiscount {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 63px;
+    margin-bottom: 32px;
+}
+
+.titleDiscount {
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 24px;
+}
+
+.paragraphDiscount {
+    color: #959595;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 100%;
+    margin-bottom: 76px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .containerDiscount {
+        margin-bottom: 80px;
+        background-image: url("../../../../assets/bg-phone.jpg")
+    }
+
+    .iconDiscount {
+        margin-top: 155px;
+    }
+
+    .titleDiscount {
+        font-size: 26px;
+        line-height: 140%;
+        margin-bottom: 8px;
+    }
+
+    .paragraphDiscount {
+        line-height: 140%;
+        margin-bottom: 155px;
+    }
+}

@@ -1,0 +1,180 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 26, 26, 0.20);
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContent {
+    background-color: #FFFFFF;
+    width: 345px;
+    height: 372px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.titleButton {
+    color: #000;
+    font-family: Nunito;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: 32px; */
+  padding: 32px;
+}
+
+.closeButton {
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.line {
+    width: 344px;
+    height: 1px;
+    background: #95959533;
+    margin-bottom: 32px;
+}
+
+.modalBody {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.modalBody label {
+    display: flex;
+    align-items: center;
+}
+
+.phoneCheckbox {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 14px;
+    padding-right: 95px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+.phoneCheckbox::placeholder {
+    color: #95959533;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.checkbox {
+    width: 22px;
+    height: 22px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-right: 6px;
+    display: none;
+}
+
+.fake {
+    display: block;
+    width: 18px;
+    height: 16px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-right: 6px;
+}
+
+.fake::before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../assets/checkbox.svg) no-repeat center;
+    opacity: 0;
+    transform: .2s;
+}
+
+.checkbox:checked + .fake::before {
+    opacity: 1;
+}
+
+.labeCheckbox {
+    color: #1A1A1A;
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.labelBody {
+    color: #959595;
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 100%;
+    margin-bottom: 6px;
+}
+
+.privacyCheckbox {
+    display: flex;
+    align-items: center;
+}
+
+
+.modalFooter {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.submitButton {
+    width: 280px;
+    padding: 16px 0px;
+    background-color: #AB0000;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.submitButtonTitle {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.submitButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.registerButton {
+    cursor: pointer;
+    text-align: center;
+    color: #AB0000;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+

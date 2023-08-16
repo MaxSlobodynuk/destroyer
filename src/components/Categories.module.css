@@ -1,0 +1,92 @@
+.modal {
+    width: 1280px;
+    height: auto;
+    background-color: gray;
+    border-radius: 12px;
+    display: flex;
+    margin: 0 auto;
+    position: absolute;
+    top: 97px;
+    z-index: 1;
+}
+
+.open {
+    display: block;
+}
+
+
+.modalContainer {
+    display: flex;
+}
+
+.modalTitle {
+    color: #AB0000;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 32px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.categoryContainer {
+    background-color: gray;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+
+.category {
+    color: #4C5563;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    width: 380px;
+    cursor: pointer;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+.category:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.categoryIcon {
+    margin-right: 10px;
+}
+
+.active {
+    width: 380px;
+    height: 44px;
+    border-radius: 0px 4px 4px 0px;
+    background: rgba(26, 26, 26, 0.10);
+    display: flex;
+    align-items: center; 
+}
+
+
+.subCategoryContainer {
+    display: flex;
+}
+
+.subCategoryColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.subCategoryColumn {
+    color: #AB0000;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+
+
+

@@ -1,0 +1,113 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 26, 26, 0.20);
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContent {
+    background-color: #FFFFFF;
+    width: 476px;
+    height: 380px;
+  /* padding: 20px; */
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+    width: 300px;
+    color: #1A1A1A;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.blackText {
+    color: #1A1A1A;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.closeButton {
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: #95959533;
+    margin-bottom: 32px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    color: #AB0000;
+    font-family: Nunito;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.modalFooter {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+.submitButton {
+    width: 227px;
+    padding: 16px 0px;
+    background-color: #AB0000;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.submitButtonTitle {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.abolitionButton {
+    display: block;
+    width: 175px;
+    padding: 16px 0px;
+    border-radius: 6px;
+    border: 1px solid #AB0000;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.abolitionButtonTitle {
+    color: #AB0000;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+}

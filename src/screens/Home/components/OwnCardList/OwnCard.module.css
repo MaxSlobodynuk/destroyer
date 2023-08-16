@@ -1,0 +1,278 @@
+.titleSvg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ownTitle {
+    text-align: center;
+    font-size: 41px;
+    font-family: Nunito;
+    font-weight: 700;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.ownParagraph {
+    font-size: 16px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 672px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    margin-top: 12px;
+}
+
+.containerImgOwn {
+    width: calc((100% - 60px) / 4);
+    width: 285px;
+    box-shadow: 0px 4px 20px 0px rgba(26, 26, 26, 0.10);
+}
+
+.ownSvgOverlay {
+    position: relative;
+    cursor: pointer;
+}
+
+.svgOverlay {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 1;
+}
+
+.ownImg {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.frame {
+    width: 68px;
+    height: 18px;
+    background-color: #AB0000;
+    border-radius: 2px;
+    margin-bottom: 8px;
+}
+
+.titleFrame {
+    color: #FFF;
+    font-size: 10px;
+    font-family: Nunito;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    display: flex;
+    padding: 4px 8px;
+}
+
+.titleOwn {
+    color: #1A1A1A;
+    font-size: 16px; 
+    font-family: Nunito;
+    font-weight: 400;
+    width: 253px;
+    margin-bottom: 8px;
+}
+
+.paragraphOwn {
+    color: #1A1A1A;
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.containerOwnCard {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    row-gap: 32px;
+    column-gap: 20px;
+}
+
+.containerFrame {
+    height: auto;
+    padding: 16px;
+}
+
+.ownButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.ownButton {
+    background-color: #AB0000;
+    width: 217px;
+    padding: 16px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 400;
+}
+
+.buttonPhoneContainer {
+    display: none;
+}
+
+.phoneNavigationContainer {
+    display: none;
+}
+
+/* ---------------  зірки  -------------- */
+
+.rating{
+    margin-bottom: 4px;
+}
+
+.star {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+.starYellow {
+    color: #ffc107;
+}
+
+.starsContainer {
+    display: inline-block;
+}
+
+.emptyStarsContainer {
+    display: inline-block;
+    color: #ffc107; 
+}
+
+
+@media screen and (max-width: 767px) {
+    .containerImgOwn {
+        width: calc((100% - 9px) / 2);
+        width: 168px;
+    }
+
+    .containerFrame {
+        padding: 12px 8px;
+    }
+
+    .ownTitle {
+        font-size: 26px;
+    }
+
+    .ownParagraph {
+        display: none;
+    }
+
+
+    .titleOwn {
+        font-size: 14px;
+        line-height: 120%;
+        width: 151px;
+        margin-bottom: 0;
+    }
+
+    .paragraphOwn {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .containerOwnCard {
+        max-width: 345px;
+        margin-bottom: 32px;
+        row-gap: 9px;
+        column-gap: 9px;
+    }
+
+    .ownButton {
+        width: 345px;
+    }
+
+    .star {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin-right: 3px;
+    }
+
+    .buttonPhoneContainer {
+        display: flex;
+        align-items: center;
+    }
+
+    .buttonPhone {
+        background-color: #AB0000;
+        width: 118px;
+        padding: 10px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border: none;
+        border-radius: 6px;
+        color: #FFF;
+        font-size: 14px;
+        font-family: Nunito;
+        font-weight: 400;
+        line-height: 100%;
+        margin-right: 10px;
+    }
+
+    .ownSvgOverlay {
+        display: none;
+    }
+
+    .ownButtonContainer {
+        margin-bottom: 80px;
+    }
+
+
+    .phoneNavigationContainer {
+        display: flex;
+        justify-content: center;
+        background: #FFF;
+        margin-top: 12px;
+        margin-bottom: 14px;
+        box-shadow: 0px 4px 20px 0px rgba(9, 21, 36, 0.10);
+    }
+
+    .phoneNavigation {
+        display: flex;
+        padding-top: 16px;
+        padding-bottom: 30px;
+        gap: 48px;
+    }
+
+    .iconContainerPhone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .svgTitle {
+        color: #4C5563;
+        font-family: Nunito;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 100%;
+    }
+
+    .iconPhoneNavigation {
+        margin-bottom: 4px;
+    }
+}

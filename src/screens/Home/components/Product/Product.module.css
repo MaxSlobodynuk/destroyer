@@ -1,0 +1,138 @@
+.containerProduct {
+    display: flex;
+    max-width: auto;
+    margin-left: 120px;
+    margin-bottom: 120px;
+}
+
+.productImg {
+    border-radius: 16px;
+    margin-right: 40px;
+    max-width: 580px;
+}
+
+.containerDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titleProduct {
+    color: #1A1A1A;
+    font-family: Nunito;
+    max-width: 464px;;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 12px;
+}
+
+.paragraphProduct {
+    color: #1A1A1A;
+    font-family: Nunito;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 32px;
+}
+
+.descriptionProduct {
+    color: #4C5563;
+    font-family: Nunito;
+    max-width: 464px;;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 32px;
+}
+
+.ownButtonContainer {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.ownButton {
+    background-color: #AB0000;
+    width: 217px;
+    padding: 16px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 100%;
+    margin-bottom: 0;
+}
+
+
+/* ---------------  зірки  -------------- */
+.rating{
+    margin-bottom: 32px;
+}
+
+.star {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 0px;
+}
+
+.starYellow {
+    color: #AB0000;
+}
+
+.starsContainer {
+    display: inline-block;
+}
+
+.emptyStarsContainer {
+    display: inline-block;
+    color: #AB0000; 
+}
+
+
+@media screen and (max-width: 767px) {
+    .containerProduct {
+        display: block;
+        margin-left: 0;
+        max-width: 345px;
+        margin: 0 auto;
+    }
+
+    .productImg {
+        border-radius: 16px;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .titleProduct {
+        max-width: 345px;;
+        font-size: 26px;
+    }
+
+    .rating {
+        margin-bottom: 16px;
+    }
+
+    .paragraphProduct {
+        margin-bottom: 16px;
+    }
+
+    .descriptionProduct {
+        max-width: 330px;;
+        margin-bottom: 16px;
+    }
+
+    .ownButton {
+        width: 345px;
+    }
+
+    .ownButtonContainer {
+        margin-bottom: 80px;
+    }
+}

@@ -1,0 +1,52 @@
+.formDiv {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .formDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .search {
+        display: flex;
+        align-items: center;
+    }
+
+    .input {
+        padding: 0;
+        width: 300px;
+        height: 44px;
+        font-size: 16px;
+        border: none;
+        border-radius: 8px 0 0 8px;
+        background: #9595951a;
+        outline: none;
+    }
+
+    .input::placeholder {
+        font-family: Nunito;
+        font-size: 16px;
+        font-weight: 500;
+        color: #959595;
+        padding-left: 16px;
+        padding-right: 51px;
+        line-height: 100%;
+    }
+
+    .buttonSearch {
+        height: 44px;
+        width: 44px;
+        border-radius: 0 8px 8px 0;
+        background: #AB0000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+    }
+}

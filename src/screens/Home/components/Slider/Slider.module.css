@@ -1,0 +1,90 @@
+:global(.slick-dots) {
+  bottom: 40px !important;
+}
+
+.sliderContainer {
+  overflow-x: hidden;
+  margin-bottom: 16px;
+}
+
+.customDots {
+  display: flex;
+  justify-content: center;
+}
+
+.customDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 60%;
+  background-color: #fff; 
+  display: inline-block;
+}
+
+.activeDot {
+  background-color: #AB0000; 
+}
+
+.customDots li {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 6px !important;
+  height: 6px !important;
+  margin-right: 8px !important;
+}
+
+
+
+.subHeader {
+  color: #323232;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 100%;
+  margin-bottom: 12px;
+}
+
+.title {
+  color: #FF1520;
+  font-family: Poppins;
+  font-size: 110px;
+  font-weight: 800;
+  line-height: 100%;
+  margin-bottom: 12px;
+}
+
+.description {
+  color: #323232;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  max-width: 442px;
+}
+
+.item {
+  padding-left: 15px;
+  padding-bottom: 30px;
+  padding-top: 74px;
+}
+
+
+@media screen and (max-width: 767px) {
+  :global(.slick-dots) {
+    bottom: 20px !important;
+  }
+
+  .subHeader {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+
+  .title {
+    font-size: 26px;
+    margin-bottom: 3px;
+  }
+
+  .description {
+    font-size: 6px;
+    max-width: 149px;
+  }
+}

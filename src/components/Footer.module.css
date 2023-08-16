@@ -1,0 +1,146 @@
+.containerFooter {
+    padding: 32px 0 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A1A1A;
+}
+
+.logolink {
+    width: 180px;
+    height: 40px;
+}
+
+.footerLogo {
+    margin-right: 173px;
+}
+
+.containerList {
+    display: flex;
+    gap: 40px;
+    margin-right: 111px;
+}
+
+.footerTitle {
+    color: #959595;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footerIconList {
+    display: flex;
+    gap: 16px;
+    margin-right: 32px;
+}
+
+.footerIcon {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footerIconPhone {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+}
+
+.svgTitle {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* .footerPhone {
+    display: flex;
+} */
+
+.footerIconPhoneDesk {
+    display: none;
+}
+
+.footerLogoDesk {
+    display: none;
+}
+
+.footerPhoneDesk {
+    display: none;
+}
+
+
+@media screen and (max-width: 767px) {
+    .containerFooter {
+        max-width: 375px;
+        padding: 32px 84px 20px 84px;
+        display: block;
+    }
+
+    .logolinkDesk {
+        width: 132px;
+        height: 29px;
+    }
+
+    .footerLogo {
+        display: none;
+    }
+
+    .footerLogoDesk {
+        margin-right: 0;
+        margin-bottom: 32px;
+        display: flex;
+        justify-content: center
+    }
+
+    .containerList {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+
+    .footerList{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footerList:not(:last-child) {
+        margin-bottom: 16px;
+    }
+
+    .footerIconList {
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    .footerPhoneDesk {
+        margin-bottom: 20px;
+    }
+
+    .footerIconPhone {
+        display: none;
+    }
+
+    .footerIconPhoneDesk {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 8px;
+    }
+
+    .svgTitleDesk {
+        color: #FFF;
+        font-family: Nunito;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .footerPhoneDesk {
+        display: flex;
+        justify-content: center;
+    }
+}
